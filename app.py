@@ -17,7 +17,7 @@ def doineedit():
     b = request.args.get("long")[:7]
     r = requests.get(url=f"https://api.open-meteo.com/v1/forecast?latitude={a}&longitude={b}&daily=precipitation_sum&timezone=auto").json()
     
-    y, x = r["daily"]["precipitation_sum"][:2]
+    x, y = r["daily"]["precipitation_sum"][:2]
 
     res = "No, you won't"
     c = "cat_ok"

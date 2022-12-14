@@ -14,7 +14,7 @@ body {
     height: 100%;
     overflow: hidden;
     font-family: sans-serif;
-    padding: 25px;
+    padding: 1vh;
     display: flex;
     justify-content: center;
     user-select: none;
