@@ -1,0 +1,144 @@
+.fit {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -50;
+}
+
+html,
+body {
+    color: white;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+body {
+    background: linear-gradient(216deg, #283cdf, #49aace, #6949ce);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+
+h1 {
+    font-size: 7vh;
+    margin: 0;
+    opacity: 0.6;
+}
+
+h2 {
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.imgfit {
+    opacity: 0.7;
+}
+
+b{
+    margin: 10px;
+}
+
+.glassybg{
+    /* From https://css.glass */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: fit-content;
+    height: fit-content;
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+}
